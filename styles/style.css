@@ -213,3 +213,39 @@
   height: 877px;
   width: 877px;
 }
+/*footer*/
+.footer{
+  background-color: #1f1f1f;
+  color: wheat;
+  display: flex;
+  flex-basis: 711px;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+.logo_plase_footer{
+  background-image: url("../images/logo_place_footer.svg");
+}
+.footer__autor{
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+}
+.footer__column{
+  list-style: none;
+  display: flex;
+}
+.column_content_info{
+  flex-direction: column;
+}
+.footer__column-links{
+  flex-direction: column;
+}
+.column_content_social{
+  flex-direction: column;
+}
+.footer__social-icons{
+  flex-direction: column;
+}
+.footer__column-link{
+  flex-direction: column;
+}
