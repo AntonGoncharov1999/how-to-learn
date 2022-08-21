@@ -9,7 +9,6 @@
 }
 /*секция header*/   /*исправить позицию header__title */
 .header {
-  border: 1px solid black;
   margin: 0 auto;
   height: 100vh;
   min-height: 600px;
@@ -218,9 +217,11 @@
   background-color: #1f1f1f;
   color: wheat;
   display: flex;
+  justify-content: space-around;
   flex-basis: 711px;
   padding-top: 60px;
   padding-bottom: 40px;
+  min-height: 350px;
 }
 .logo_plase_footer{
   background-image: url("../images/logo_place_footer.svg");
@@ -229,23 +230,54 @@
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
+  margin: 0;
+  padding: 18px 0 18px 0;
 }
 .footer__column{
   list-style: none;
   display: flex;
+  margin: 0;
+  padding: 0;
+}
+.column_content_copyright{
+  width: 50%;
+  display:  flex;
+  flex-direction: column;
+}
+.column__copyright{
+  flex-direction: column;
+  display: flex;
+  align-content: space-between;
+  justify-content: space-between;
+  height: 100%;
 }
 .column_content_info{
   flex-direction: column;
 }
 .footer__column-links{
   flex-direction: column;
+  padding-bottom: 16px;
+}
+.footer__column-heading{
+  padding: 0;
+  margin: 0 0 20px 0;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: 600;
 }
 .column_content_social{
   flex-direction: column;
 }
-.footer__social-icons{
-  flex-direction: column;
+.footer__social-icon{
+  height: 16px;
+  width: 16px;
 }
 .footer__column-link{
-  flex-direction: column;
+  text-decoration: none;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+  color: wheat;
+  height: 10px;
+
 }
