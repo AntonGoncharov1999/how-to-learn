@@ -265,17 +265,14 @@
   margin: 0;
   padding: 0;
 }
-.column_content_copyright{
-  display:  flex;
-  flex-direction: column;
-}
-.column__copyright{
+.footer__column_content_copyright{
+  flex-basis: 711px;
   flex-direction: column;
   display: flex;
   align-content: space-between;
   justify-content: space-between;
   height: 100%;
-  flex-basis: 711px;
+
 }
 .footer__column_content_info{
   flex-direction: column;
